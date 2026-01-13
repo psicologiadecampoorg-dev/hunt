@@ -1,0 +1,50 @@
+name: treasure_hunt
+description: Jornada de Autoconhecimento - O Realizador
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI/UX
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.6
+  lucide_icons: ^0.257.0
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # AI & LLM
+  google_generative_ai: ^0.4.0
+  
+  # Storage
+  shared_preferences: ^2.2.0
+  
+  # Markdown
+  flutter_markdown: ^0.6.14
+  
+  # Media & Permissions
+  camera: ^0.10.5
+  image_picker: ^1.0.4
+  flutter_tts: ^3.8.3
+  speech_to_text: ^6.6.0
+  permission_handler: ^11.0.1
+  
+  # Navigation & Utils
+  url_launcher: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Certifique-se de ter o arquivo 'logo.png' dentro da pasta 'assets' na raiz do projeto.
+  assets:
+    - assets/logo.png
